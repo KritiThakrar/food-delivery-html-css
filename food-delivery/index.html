@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodsense | Food Delivery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Sen:wght@800&display=swap');
+    </style>
+</head>
+
+<body>
+    <!-- navbar -->
+    <section class="hero-background">
+        <nav class="navbar">
+            <div class="navbar-brand">
+                <a href="index.html">
+                    <img src="https://templatekit.tokomoo.com/deliverykit/wp-content/uploads/sites/26/2021/07/Logo-1.png"
+                        alt="logo">
+                </a>
+            </div>
+            <div class="navbar-start">
+                <div class="navbar-menu">
+                    <a class="navbar-item" href="/index.html">
+                        Home
+                    </a>
+                    <a class="navbar-item" href="/about/index.html">
+                        About
+                    </a>
+                    <a class="navbar-item" href="/contact/index.html">
+                        Contact
+                    </a>
+                </div>
+            </div>
+            <div class="navbar-end">
+                <div>
+                    <a class="button">
+                        <div>Order Now</div>
+                    </a>
+                </div>
+            </div>
+            </div>
+        </nav>
+
+        <!-- hero section -->
+        <section class="section">
+            <div class="container">
+                <div class="columns center">
+                    <div class="column is-two-fifth">
+                        <h1 class="title has-text-centered">
+                            Find Something Delicious For You.
+                        </h1>
+                        <div class="subtitle has-text-centered is-size-5">
+                            Discover the best food & drinks in you location you want ot order.
+                        </div>
+                        <div class="columns center">
+                            <div class="column has-text-centered is-three-fifth">
+                                <div class="searchBar mt-6">
+                                    <input id="searchQueryInput" type="text" name="searchQueryInput"
+                                        placeholder="Search your location..." value="" />
+                                    <button id="searchQuerySubmit" type="submit" name="searchQuerySubmit">
+                                        <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                                            <path fill="#666666"
+                                                d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                            <!-- <div class="column">
+                                <a class="button">
+                                    <div>Search</div>
+                                </a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- Just Relax at Home We Will Serve You -->
+    <section class="section">
+        <div class="container">
+            <div class="columns mt-5">
+                <div class="column is-half">
+                    <div class="title is-size-2">
+                        Just Relax at Home We Will Serve You
+                        <!-- <img class="mt-6"
+                            src="https://templatekit.tokomoo.com/deliverykit/wp-content/uploads/sites/26/2021/07/Online-Delivery-Service-Graphic-Illustration-5.png"
+                            alt="Delivery Guy"> -->
+                        <iframe class="mt-6 pt-5" width="560" height="315" src="https://www.youtube.com/embed/OZzoAw9QHXY"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="column is-half2" style="margin-left: 40px !important;">
+                    <div class="columns pt-0">
+                        <div class="column pt-0 is-half">
+                            <img src="https://templatekit.tokomoo.com/deliverykit/wp-content/uploads/sites/26/2021/07/ic_best-courier.png"
+                                alt="Courier" width="70" height="70">
+                            <div class="title is-size-4 mt-5">
+                                The Best Courier
+                            </div>
+                            <div class="subtitle pl-0">
+                                We have the best courier in the city.
+                            </div>
+                        </div>
+                        <div class="column pt-0 is-half ml-5">
+                            <img src="https://templatekit.tokomoo.com/deliverykit/wp-content/uploads/sites/26/2021/07/ic_free-delivery.png"
+                                alt="Deliver" width="70" height="70">
+                            <div class="title is-size-4 mt-5">
+                                Free Delivery
+                            </div>
+                            <div class="subtitle">
+                                We will deliver your food to you.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="columns mt-6">
+                        <div class="column pt-0 is-half">
+                            <img src="https://templatekit.tokomoo.com/deliverykit/wp-content/uploads/sites/26/2021/07/ic_24-7-support.png"
+                                alt="Support" width="70" height="70">
+                            <div class="title is-size-4 mt-5">
+                                24/7 Support
+                            </div>
+                            <div class="subtitle pl-0">
+                                We are here to help you with all your queries you have anytime during the day.
+                            </div>
+                        </div>
+                        <div class="column pt-0 is-half ml-5">
+                            <img src="https://templatekit.tokomoo.com/deliverykit/wp-content/uploads/sites/26/2021/07/ic_save-time.png"
+                                alt="Save time" width="70" height="70">
+                            <div class="title is-size-4 mt-5">
+                                Save Your Time
+                            </div>
+                            <div class="subtitle">
+                                We will help you to save your time by ordering your food online.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Friendly & Intuitive System -->
+    <section class="section">
+        <div class="container">
+            <div class="columns center">
+                <div class="column has-text-centered">
+                    <div class="title is-size-2">
+                        Friendly & Intuitive System
+                    </div>
+                </div>
+            </div>
+            <div class="columns center mt-6">
+                <div class="column has-text-centered is-one-third">
+                    <div class="title is-size-2 has-text-red">
+                        1
+                    </div>
+                    <div class="title is-size-3 mt-6">
+                        Choose Your Meals
+                    </div>
+                    <div class="subtitle mt-1">
+                        Choose your meals from our menu and we will make sure that you will get the best food you have
+                        ever tasted.
+                    </div>
+                </div>
+                <div class="column has-text-centered is-one-third">
+                    <div class="title is-size-2 has-text-red">
+                        2
+                    </div>
+                    <div class="title is-size-3 mt-6">
+                        Pay For The Order
+                    </div>
+                    <div class="subtitle mt-1">
+                        Secondly, You just need to yay for your order and we will deliver it to you on time and make
+                        sure the money is worth the food.
+                    </div>
+                </div>
+                <div class="column has-text-centered is-one-third">
+                    <div class="title is-size-2 has-text-red">
+                        3
+                    </div>
+                    <div class="title is-size-3 mt-6">
+                        Delivered For Free
+                    </div>
+                    <div class="subtitle mt-1">
+                        Finally, We will deliver your food to you for free, Our delivery guy will bring the food to your
+                        door step.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Discount -->
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-two-fifth">
+                    <div class="title is-size-2">
+                        Popular Discount
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="is-size-4 mt-5 pt-1">
+                        Countdown :
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="title is-size-2 has-text-red">
+                        00
+                    </div>
+                    <div class="is-size-5 has-text-red">
+                        Hours
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="title is-size-2 has-text-red">
+                        25
+                    </div>
+                    <div class="is-size-5 has-text-red">
+                        Minutes
+                    </div>
+                </div>
+            </div>
+            <div class="columns">
+                <div class="column is-half1">
+                    <div class="box is-clipped">
+                        <div class="title is-size-3">
+                            Cheese Stuffed Burgers
+                        </div>
+                        <div class="subtitle mt-5 line-space-between1 mr-7">
+                            Thousand island dressing, american cheese, red onion, pickle juice, sweet hawaiian buns.
+                        </div>
+                        <div class="subtitle mt-4 has-text-red is-size-4">
+                            $8.99 <span><strike class="has-text-red-light ml-4 mr-6">$9.99</strike></span>
+                            <a class="button ml-7">
+                                <div>Order Now</div>
+                            </a>
+                        </div>
+                        <img class="menu-image"
+                            src="https://templatekit.tokomoo.com/deliverykit/wp-content/uploads/sites/26/2021/07/burger-95CWFUB-removebg.png"
+                            alt="Burger">
+                    </div>
+                </div>
+                <div class="column is-half1">
+                    <div class="box is-clipped">
+                        <div class="title is-size-3">
+                            Seafood Fried Rice
+                        </div>
+                        <div class="subtitle mt-5 line-space-between1 mr-7">
+                            Contains fish, prawns & crab meat.
+                        </div>
+                        <div class="subtitle mt-4 has-text-red is-size-4">
+                            $4.99 <span><strike class="has-text-red-light ml-4 mr-6">$5.99</strike></span>
+                            <a class="button ml-7">
+                                <div>Order Now</div>
+                            </a>
+                        </div>
+                        <img class="menu-image1"
+                            src="https://templatekit.tokomoo.com/deliverykit/wp-content/uploads/sites/26/2021/07/plate-of-asian-food-GF8U9TQ-removebg.png"
+                            alt="Seafood Rice">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Food List For You -->
+    <section class="section">
+        <div class="container">
+            <div class="title is-size-2">
+                Food List For You
+            </div>
+            <div class="columns mt-6">
+                <div class="column is-one-third has-text-centered">
+                    <img src="https://templatekit.tokomoo.com/deliverykit/wp-content/uploads/sites/26/elementor/thumbs/asian-food-fried-thai-rice-noodles-PXH7MAG-removebg-p9pgkh58dl0jduyy9gbzmlu12mqunrtf84jatuqhtk.png"
+                        alt="">
+                    <div class="mt-5">
+                        <i class="fa fa-star is-size-2 checked" style="font-size:1.5rem !important ;"></i>
+                        <i class="fa fa-star is-size-2 checked" style="font-size:1.5rem !important ;"></i>
+                        <i class="fa fa-star is-size-2 checked" style="font-size:1.5rem !important ;"></i>
+                        <i class="fa fa-star is-size-2 checked" style="font-size:1.5rem !important ;"></i>
+                        <i class="fa fa-star is-size-2 checked" style="font-size:1.5rem !important ;"></i>
+                        <span class="is-size-5 has-text-grey-light pl-4 mb-3">(5.0)</span>
+                    </div>
+                    <div class="title mt-4 is-size-4andHalf">
+                        Kung Pao Noodles
+                    </div>
+                    <div class="subtitle pl-0 mt-1">
+                        Soy sauce, sesame oil, chili paste...
+                    </div>
+                    <div class="is-size-6 mt-5 is-size-4">
+                        $10.99
+                        <a class="button ml-7">
+                            <div>Order Now</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="column is-one-third has-text-centered">
+                    <img src="https://templatekit.tokomoo.com/deliverykit/wp-content/uploads/sites/26/elementor/thumbs/tasty-pizza-is-isolated-on-white-background-FYB7QRU-removebg-p9pgl3pcxlvf4i26lq31ag53bvnnsiazb86ycht1o8.png"
+                        alt="">
+                    <div class="mt-5">
+                        <i class="fa fa-star is-size-2 checked" style="font-size:1.5rem !important ;"></i>
+                        <i class="fa fa-star is-size-2 checked" style="font-size:1.5rem !important ;"></i>
+                        <i class="fa fa-star is-size-2 checked" style="font-size:1.5rem !important ;"></i>
+                        <i class="fa fa-star is-size-2 checked" style="font-size:1.5rem !important ;"></i>
+                        <i class="fa fa-star is-size-2 checked" style="font-size:1.5rem !important ;"></i>
+                        <span class="is-size-5 has-text-grey-light pl-4 mb-3">(5.0)</span>
+                    </div>
+                    <div class="title mt-4 is-size-4andHalf">
+                        Super Supreme Chicken
+                    </div>
+                    <div class="subtitle pl-0 mt-1">
+                        Skinless chicken breast, pizza dough...
+                    </div>
+                    <div class="is-size-6 mt-5 is-size-4">
+                        $5.99
+                        <a class="button ml-7">
+                            <div>Order Now</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="column is-one-third has-text-centered">
+                    <img src="https://templatekit.tokomoo.com/deliverykit/wp-content/uploads/sites/26/elementor/thumbs/bowl-of-asian-food-89RSKYD-removebg-p9pgklufbr6yzws4i0d4h2nc1k3oq9c2wrsq88jiyg.png"
+                        alt="">
+                    <div class="mt-5">
+                        <i class="fa fa-star is-size-2 checked" style="font-size:1.5rem !important ;"></i>
+                        <i class="fa fa-star is-size-2 checked" style="font-size:1.5rem !important ;"></i>
+                        <i class="fa fa-star is-size-2 checked" style="font-size:1.5rem !important ;"></i>
+                        <i class="fa fa-star is-size-2 checked" style="font-size:1.5rem !important ;"></i>
+                        <i class="fa fa-star is-size-2 checked" style="font-size:1.5rem !important ;"></i>
+                        <span class="is-size-5 has-text-grey-light pl-4 mb-3">(5.0)</span>
+                    </div>
+                    <div class="title mt-4 is-size-4andHalf">
+                        Lemony Chicken
+                    </div>
+                    <div class="subtitle pl-0 mt-1">
+                        Chicken breast, chicken broth...
+                    </div>
+                    <div class="is-size-6 mt-5 is-size-4">
+                        $8.99
+                        <a class="button ml-7">
+                            <div>Order Now</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="columns mt-6">
+                <div class="column is-one-third has-text-centered">
+                    <img src="https://templatekit.tokomoo.com/deliverykit/wp-content/uploads/sites/26/elementor/thumbs/plate-of-asian-food-PYEJ7GD-removebg-p9pgkx4hlrmev8bqo58nazsv66k3amkuybmjzk2svs.png"
+                        alt="">
+                    <div class="mt-5">
+                        <i class="fa fa-star is-size-2 checked" style="font-size:1.5rem !important ;"></i>
+                        <i class="fa fa-star is-size-2 checked" style="font-size:1.5rem !important ;"></i>
+                        <i class="fa fa-star is-size-2 checked" style="font-size:1.5rem !important ;"></i>
+                        <i class="fa fa-star is-size-2 checked" style="font-size:1.5rem !important ;"></i>
+                        <i class="fa fa-star is-size-2 checked" style="font-size:1.5rem !important ;"></i>
+                        <span class="is-size-5 has-text-grey-light pl-4 mb-3">(5.0)</span>
+                    </div>
+                    <div class="title mt-4 is-size-4andHalf">
+                        Asian Fried Rice
+                    </div>
+                    <div class="subtitle pl-0 mt-1">
+                        Char siu, shrimp, soy sauce, peas...
+                    </div>
+                    <div class="is-size-6 mt-5 is-size-4">
+                        $9.99
+                        <a class="button ml-7">
+                            <div>Order Now</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="column is-one-third has-text-centered">
+                    <img src="https://templatekit.tokomoo.com/deliverykit/wp-content/uploads/sites/26/elementor/thumbs/plate-of-asian-food-FGXM9UT-removebg-p9pgkonxw9atyqo11jl06jxptppsdcn9x5r6o2fcfs.png"
+                        alt="">
+                    <div class="mt-5">
+                        <i class="fa fa-star is-size-2 checked" style="font-size:1.5rem !important ;"></i>
+                        <i class="fa fa-star is-size-2 checked" style="font-size:1.5rem !important ;"></i>
+                        <i class="fa fa-star is-size-2 checked" style="font-size:1.5rem !important ;"></i>
+                        <i class="fa fa-star is-size-2 checked" style="font-size:1.5rem !important ;"></i>
+                        <i class="fa fa-star is-size-2 checked" style="font-size:1.5rem !important ;"></i>
+                        <span class="is-size-5 has-text-grey-light pl-4 mb-3">(5.0)</span>
+                    </div>
+                    <div class="title mt-4 is-size-4andHalf">
+                        Chicken Teriyaki Sauce
+                    </div>
+                    <div class="subtitle pl-0 mt-1">
+                        Soy sauce, brown sugar, honey...
+                    </div>
+                    <div class="is-size-6 mt-5 is-size-4">
+                        $7.99
+                        <a class="button ml-7">
+                            <div>Order Now</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="column is-one-third has-text-centered">
+                    <img src="https://templatekit.tokomoo.com/deliverykit/wp-content/uploads/sites/26/elementor/thumbs/plate-of-asian-noodles-with-fried-meat-P3PUZQF-removebg-p9pgl0vud3rk5o6a26v5kyupjq1k5ezsau8hwnx86w.png"
+                        alt="">
+                    <div class="mt-5">
+                        <i class="fa fa-star is-size-2 checked" style="font-size:1.5rem !important ;"></i>
+                        <i class="fa fa-star is-size-2 checked" style="font-size:1.5rem !important ;"></i>
+                        <i class="fa fa-star is-size-2 checked" style="font-size:1.5rem !important ;"></i>
+                        <i class="fa fa-star is-size-2 checked" style="font-size:1.5rem !important ;"></i>
+                        <i class="fa fa-star is-size-2 checked" style="font-size:1.5rem !important ;"></i>
+                        <span class="is-size-5 has-text-grey-light pl-4 mb-3">(5.0)</span>
+                    </div>
+                    <div class="title mt-4 is-size-4andHalf">
+                        Spaghetti Carbonara
+                    </div>
+                    <div class="subtitle pl-0 mt-1">
+                        Spaghetti, pancetta, parmesan...
+                    </div>
+                    <div class="is-size-6 mt-5 is-size-4">
+                        $6.99
+                        <a class="button ml-7">
+                            <div>Order Now</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Express food ordering with delivery -->
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-half">
+                    <div class="title is-size-2">
+                        Express food ordering with delivery
+                    </div>
+                    <form class="mt-6" action="">
+                        <input type="text" placeholder="Your Name">
+                        <input class="mt-5" type="text" placeholder="Your Address">
+                        <input class="mt-5" type="email" placeholder="Your Email">
+                        <input class="mt-5" type="number" placeholder="Phone Number">
+                        <button class="register-button mt-5">
+                            Register Now
+                        </button>
+                    </form>
+                </div>
+                <div class="column">
+                    <div class="box-form">
+                        <img class="menu-image2"
+                            src="https://templatekit.tokomoo.com/deliverykit/wp-content/uploads/sites/26/2021/07/Online-Delivery-Service-Graphic-Illustration-6.png"
+                            alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- download -->
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-half1">
+                    <div class="circle-background">
+                        <div class="app-image">
+                            <img src="https://templatekit.tokomoo.com/deliverykit/wp-content/uploads/sites/26/2021/07/X-31.png"
+                                alt="" srcset="">
+                            <img class="mobile-app-image-float"
+                                src="https://templatekit.tokomoo.com/deliverykit/wp-content/uploads/sites/26/elementor/thumbs/baked-mushrooms-with-soy-sauce-and-herbs-vegan-foo-PHGLNBC-p9nul6r9d5hkvqulfcyb5zunystse4helxjnia59ag.jpg"
+                                alt="">
+                            <div class="app-review-float">
+                                <div class="columns">
+                                    <div class="column m-0">
+                                        <img src="https://templatekit.tokomoo.com/deliverykit/wp-content/uploads/sites/26/2021/07/beautiful-young-latin-woman-smiling-in-camera-XEA22HZ.png"
+                                            alt="" width="60px" height="60px">
+                                    </div>
+                                    <div class="column m-0">
+                                        <div class="title mt-2 is-size-6">
+                                            Angel Jessica
+                                        </div>
+                                        <div class="subtitle pt-2 pl-0">
+                                            "Great, this is what I need"
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-half1">
+                    <h1 class="title is-size-2 mt-6 mr-4">The Best Food Delivery App. Download Now!</h1>
+                    <div class="subtitle pl-0 mt-4 mr-3 mb-6">
+                        Get your food delivered to door step with our app and enjoy the best food in town.
+                        We will send you a link, open it on your phone to download the app
+                    </div>
+                    <div class="mt-6 is-size-4">
+                        Download Available
+                    </div>
+                    <div class="columns pl-0">
+                        <div class="column pl-0">
+                            <img src="https://templatekit.tokomoo.com/deliverykit/wp-content/uploads/sites/26/2021/07/google-play-badge.png"
+                                alt="">
+                        </div>
+                        <div class="column">
+                            <img src="https://templatekit.tokomoo.com/deliverykit/wp-content/uploads/sites/26/2021/07/5847e95fcef1014c0b5e4822.png"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section class="section footer">
+        <div class="container">
+            <img src="https://templatekit.tokomoo.com/deliverykit/wp-content/uploads/sites/26/2021/07/Logo-2.png"
+                alt="">
+            <div class="columns mt-6">
+                <div class="column is-one-fifth">
+                    <div class="title is-size-4andHalf">
+                        Why Us?
+                    </div>
+                    <div class="subtitle mt-6 is-size-5 pl-0 mouse-pointer">
+                        Responsive
+                    </div>
+                    <div class="subtitle mt-3 is-size-5 pl-0 mouse-pointer">
+                        Engagement
+                    </div>
+                    <div class="subtitle mt-3 is-size-5 pl-0 mouse-pointer">
+                        Scale
+                    </div>
+                    <div class="subtitle mt-3 is-size-5 pl-0 mouse-pointer">
+                        Watch the Demo
+                    </div>
+                </div>
+                <div class="column is-one-fifth">
+                    <div class="title is-size-4andHalf">
+                        Resources
+                    </div>
+                    <div class="subtitle mt-6 is-size-5 pl-0 mouse-pointer">
+                        Developers
+                    </div>
+                    <div class="subtitle mt-3 is-size-5 pl-0 mouse-pointer">
+                        Apps
+                    </div>
+                    <div class="subtitle mt-3 is-size-5 pl-0 mouse-pointer">
+                        Blogs
+                    </div>
+                    <div class="subtitle mt-3 is-size-5 pl-0 mouse-pointer">
+                        Help Center
+                    </div>
+                </div>
+                <div class="column is-one-fifth">
+                    <div class="title is-size-4andHalf">
+                        Company
+                    </div>
+                    <div class="subtitle mt-6 is-size-5 pl-0 mouse-pointer">
+                        About
+                    </div>
+                    <div class="subtitle mt-3 is-size-5 pl-0 mouse-pointer">
+                        Merchant
+                    </div>
+                    <div class="subtitle mt-3 is-size-5 pl-0 mouse-pointer">
+                        Career
+                    </div>
+                    <div class="subtitle mt-3 is-size-5 pl-0 mouse-pointer">
+                        Contact
+                    </div>
+                </div>
+                <div class="column is-one-quarter">
+                    <div class="title is-size-4andHalf">
+                        Our Social Media
+                    </div>
+                    <div class="mt-4">
+                        <span class="mouse-pointer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+                                <path
+                                    d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z" />
+                            </svg>
+                        </span>
+                        <span class="pl-4 mouse-pointer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+                                <path
+                                    d="M14.667 12c0 1.473-1.194 2.667-2.667 2.667-1.473 0-2.667-1.193-2.667-2.667 0-1.473 1.194-2.667 2.667-2.667 1.473 0 2.667 1.194 2.667 2.667zm3.846-3.232c.038.843.046 1.096.046 3.232s-.008 2.389-.046 3.233c-.1 2.15-1.109 3.181-3.279 3.279-.844.038-1.097.047-3.234.047-2.136 0-2.39-.008-3.232-.046-2.174-.099-3.181-1.132-3.279-3.279-.039-.845-.048-1.098-.048-3.234s.009-2.389.047-3.232c.099-2.152 1.109-3.181 3.279-3.279.844-.039 1.097-.047 3.233-.047s2.39.008 3.233.046c2.168.099 3.18 1.128 3.28 3.28zm-2.405 3.232c0-2.269-1.84-4.108-4.108-4.108-2.269 0-4.108 1.839-4.108 4.108 0 2.269 1.84 4.108 4.108 4.108 2.269 0 4.108-1.839 4.108-4.108zm1.122-4.27c0-.53-.43-.96-.96-.96s-.96.43-.96.96.43.96.96.96c.531 0 .96-.43.96-.96zm6.77-7.73v24h-24v-24h24zm-4 12c0-2.172-.009-2.445-.048-3.298-.131-2.902-1.745-4.52-4.653-4.653-.854-.04-1.126-.049-3.299-.049s-2.444.009-3.298.048c-2.906.133-4.52 1.745-4.654 4.653-.039.854-.048 1.127-.048 3.299 0 2.173.009 2.445.048 3.298.134 2.906 1.746 4.521 4.654 4.654.854.039 1.125.048 3.298.048s2.445-.009 3.299-.048c2.902-.133 4.522-1.745 4.653-4.654.039-.853.048-1.125.048-3.298z" />
+                            </svg>
+                        </span>
+                        <span class="pl-4 mouse-pointer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+                                <path
+                                    d="M0 0v24h24v-24h-24zm18.862 9.237c.208 4.617-3.235 9.765-9.33 9.765-1.854 0-3.579-.543-5.032-1.475 1.742.205 3.48-.278 4.86-1.359-1.437-.027-2.649-.976-3.066-2.28.515.098 1.021.069 1.482-.056-1.579-.317-2.668-1.739-2.633-3.26.442.246.949.394 1.486.411-1.461-.977-1.875-2.907-1.016-4.383 1.619 1.986 4.038 3.293 6.766 3.43-.479-2.053 1.079-4.03 3.198-4.03.944 0 1.797.398 2.396 1.037.748-.147 1.451-.42 2.085-.796-.245.767-.766 1.41-1.443 1.816.664-.08 1.297-.256 1.885-.517-.44.656-.997 1.234-1.638 1.697z" />
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="mt-6 is-size-4 mouse-pointer">
+                        Download App
+                    </div>
+                    <div class="mt-5">
+                        <img class="mouse-pointer" width="166px"
+                            src="https://templatekit.tokomoo.com/deliverykit/wp-content/uploads/sites/26/2021/07/google-play-badge.png"
+                            alt="">
+                        <img class="mouse-pointer" width="166px"
+                            src="https://templatekit.tokomoo.com/deliverykit/wp-content/uploads/sites/26/2021/07/5847e95fcef1014c0b5e4822.png"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+            <hr class="has-text-grey-light mt-6">
+            <div class="columns">
+                <div class="column is-two-fifth">
+                    <div class="has-text-grey-light">
+                        Copyright©2021 FoodSense Food delivery
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="has-text-grey-light">
+                        Privacy Policy
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="has-text-grey-light">
+                        Cookie Policy
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="has-text-grey-light">
+                        Tearms & Services
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
